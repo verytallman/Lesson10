@@ -12,6 +12,30 @@ package HW10;
 
 
 public class App {
+    public static void main(String[] args) {
+        Animal animal = new Animal();
+        animal.location = "house";
+        animal.food = "apple";
 
+        Animal dog = new Dog("43kg","25 km/h");
+        dog.noise = "woof";
+        dog.food = "meat and porridge";
+        dog.location = "in the apartment";
+        dog.eat();
+        dog.makeNoise();
+
+        Animal cat = new Cat();
+        cat.food = "feed";
+        cat.noise = "meow";
+        cat.location = "on the couch";
+        cat.eat();
+        cat.makeNoise();
+
+
+
+
+
+
+    }
 
 }

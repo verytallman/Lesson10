@@ -14,4 +14,11 @@ public class Animal {
     public void sleep(){
         System.out.println("The animal could sleep in "+location);
     }
+
+    public void sleepCounter(){
+    }
+
+    public void maxSpeed(){
+    }
+
 }

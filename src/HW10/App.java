@@ -23,13 +23,18 @@ public class App {
         dog.location = "in the apartment";
         dog.eat();
         dog.makeNoise();
+        dog.sleep();
+        dog.maxSpeed();
 
-        Animal cat = new Cat();
+
+        Animal cat = new Cat("22 hours per day");
         cat.food = "feed";
         cat.noise = "meow";
         cat.location = "on the couch";
         cat.eat();
         cat.makeNoise();
+        cat.sleep();
+        cat.sleepCounter();
 
 
 

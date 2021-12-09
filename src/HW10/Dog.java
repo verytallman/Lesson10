@@ -17,4 +17,8 @@ public class Dog extends Animal {
         System.out.println("The dog could eat some "+food);
     }
 
+    public void maxSpeed (){
+        System.out.println("Your dog's maximum speed is "+speed);
+    }
+
 }

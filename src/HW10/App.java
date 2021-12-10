@@ -16,54 +16,53 @@ import java.util.Arrays;
 public class App {
     public static void main(String[] args) {
         Animal animal = new Animal();
-//        animal.makeNoise();
-//        animal.eat();
-//        animal.sleep();
+        animal.makeNoise();
+        animal.eat();
+        animal.sleep();
 
         Animal dog = new Dog("43kg","25 km/h");
-        dog.noise = "woof";
-        dog.food = "meat and porridge";
-        dog.location = "in the apartment";
-        dog.name = "Cherry";
+        dog.noise = "гав";
+        dog.food = "каша с мясом";
+        dog.location = "в квартире";
+        dog.name = "Вишенка";
+        dog.animalType = "Собакен";
 
-//        dog.sleep();
-//        dog.eat();
-//        dog.makeNoise();
+        dog.sleep();
+        dog.eat();
+        dog.makeNoise();
 
 
         Animal cat = new Cat("22 hours per day");
-        cat.food = "feed";
-        cat.noise = "meow";
-        cat.location = "on the couch";
-        cat.name = "Sherlock";
+        cat.food = "корм";
+        cat.noise = "мяу";
+        cat.location = "на кровати";
+        cat.name = "Шерлок";
+        cat.animalType = "Кот";
 
-//        cat.sleep();
-//        cat.eat();
-//        cat.makeNoise();
+        cat.sleep();
+        cat.eat();
+        cat.makeNoise();
+        cat.sleepCounter();
 
         Animal horse = new Horse("45 km/h");
-        horse.noise = "brrr";
-        horse.food = "sugar";
-        horse.location = "horse stalls";
-        horse.name = "Brownie";
+        horse.noise = "игого";
+        horse.food = "сахарок";
+        horse.location = "в стойле";
+        horse.name = "Брауни";
+        horse.animalType = "Лошадь";
 
         Animal horse2 = new Horse("43 km/h");
-        horse2.noise = "brrr";
-        horse2.food = "apples";
-        horse2.location = "horse stalls";
-        horse2.name = "Cheese";
+        horse2.noise = horse.noise;
+        horse2.food = "яблоки";
+        horse2.location = horse.location;
+        horse2.name = "Сырок";
+        horse2.animalType = horse.animalType;
 
-
-//        horse.sleep();
-//        horse.eat();
-//        horse.makeNoise();
+        horse.sleep();
+        horse.eat();
+        horse.makeNoise();
 
         Vet vet = new Vet();
-//        vet.treatAnimal(dog);
-//        vet.treatAnimal(cat);
-//        vet.treatAnimal(horse);
-
-
 
         Animal[] AnimalArray = new Animal[]{dog,cat,horse,horse2};
         int i;

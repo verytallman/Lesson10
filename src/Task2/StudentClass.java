@@ -1,10 +1,10 @@
 package Task2;
 
 public class StudentClass {
-    public String firstName;
-    public String lastName;
-    public String group;
-    public double averageMark;
+    private String firstName;
+    private String lastName;
+    private String group;
+    double averageMark;
 
     public StudentClass(String firstName, String lastName, String group, double averageMark) {
         this.firstName = firstName;

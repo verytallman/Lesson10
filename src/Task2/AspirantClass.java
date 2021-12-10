@@ -1,11 +1,12 @@
 package Task2;
 
 public class AspirantClass extends StudentClass{
-        public String scienceWork;
+        private String scienceWork;
 
     public AspirantClass(String firstName, String lastName, String group, double averageMark, String scienceWork) {
         super(firstName, lastName, group, averageMark);
         this.scienceWork = scienceWork;
+
     }
 
     public double getScholarship(){

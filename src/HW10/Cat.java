@@ -8,18 +8,18 @@ public class Cat extends Animal {
     }
 
     public void makeNoise(){
-        System.out.println("The cat could make a noise like "+noise+".");
+        System.out.println("Cat "+name+" could make a noise like "+noise+".");
     }
 
     public void eat(){
-        System.out.println("The animal cat could eat some "+food+".");
+        System.out.println("Cat "+name+" could eat some "+food+".");
     }
 
     public void sleep(){
-        System.out.println("The animal cat could sleep "+location+".");
+        System.out.println("Cat "+name+" could sleep "+location+".");
     }
 
     public void sleepCounter(){
-        System.out.println("Your cat sleeps for about "+timeSpendToSleep+".");
+        System.out.println("Cat "+name + " sleeps for about "+timeSpendToSleep+".");
     }
 }

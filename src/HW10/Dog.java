@@ -10,15 +10,19 @@ public class Dog extends Animal {
     }
 
     public void makeNoise(){
-        System.out.println("The dog could make a noise like "+noise);
+        System.out.println("Dog "+name+" could make a noise like "+noise+".");
     }
 
     public void eat(){
-        System.out.println("The dog could eat some "+food);
+        System.out.println("Dog "+name+" could eat some "+food+".");
+    }
+
+    public void sleep(){
+        System.out.println("Dog "+name+" could sleep "+location+".");
     }
 
     public void maxSpeed (){
-        System.out.println("Your dog's maximum speed is "+speed);
+        System.out.println("Dog "+name+" maximum speed is "+speed+".");
     }
 
 }
